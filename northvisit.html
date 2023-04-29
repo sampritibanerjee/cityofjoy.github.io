@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+</head>
+
+
+<body >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-xl">
+         
+          <a class="navbar-brand" href="#" >MY CITY </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            
+            </form>
+          </div>
+        </div>
+      </nav>  
+
+      <script>
+    
+    anime.timeline({loop: true})
+  .add({
+    targets: '.ml15 .word',
+    scale: [14,1],
+    opacity: [0,1],
+    easing: "easeOutCirc",
+    duration: 800,
+    delay: (el, i) => 800 * i
+  }).add({
+    targets: '.ml15',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+    
+    
+    
+    </script>
+
+    <style>
+        .ml15 {
+  font-weight: 600;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+/* body{
+    background-image: url(tourbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} */
+    </style>
+
+<div class=" container-fluid mt-3  " >
+    
+        <div class="row "style="background-image: url(tourbg.jpg);" >
+            <div class=" col-md-12  ">
+                <h1 class="ml15"><center>
+                    <span class="word">visit</span>
+                      <span class="word">now</span></center>
+                    </h1></div></div>
+                    <div class="row ">
+        <div class=" col-md-3 col-6  mt-2 ">
+    
+            <div class="card" style="width:100%; height: 520px; background-image: url(tourbg.jpg); background-size: cover;
+            background-repeat: no-repeat; "><br>
+                <img class="card-img-top img-fluid" style="border-radius: 40%; height: 350px;" src="howrah.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Howrah Bridge</h5>
+                  <p class="card-text">The Howrah Bridge is a balanced cantilever bridge over the Hooghly River in West Bengal, India. Commissioned in 1943.</p>
+                  <a href="https://goo.gl/maps/Xky8bPoKP7j2a9iU9" class="btn btn-dark">Go </a>
+                </div>
+             </div>
+                    </div>
+                    <div class=" col-md-3 col-6  mt-2 ">
+    
+                        <div class="card" style="width:100%; height: 520px; background-image: url(tourbg.jpg); background-size: cover;
+                        background-repeat: no-repeat; "><br>
+                            <img class="card-img-top img-fluid" style="border-radius: 40%; height: 350px;" src="boipara.png.crdownload" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">College Street</h5>
+                              <p class="card-text">College Street is a 900 metre long street in Central Kolkata in the Indian state of West Bengal.</p>
+                              <a href="https://goo.gl/maps/kyTvVN1bMh8qQ1Km7" class="btn btn-dark">Go </a>
+                            </div>
+                          </div>
+                                </div>
+                                <div class=" col-md-3 col-6 mt-2 ">
+    
+                                    <div class="card" style="width:100%; height: 520px; background-image: url(tourbg.jpg); background-size: cover;
+                                    background-repeat: no-repeat; "><br>
+                                        <img class="card-img-top img-fluid" style="border-radius: 40%; height: 350px;" src="rajbari.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Sovabazar Rajbari</h5>
+                                          <p class="card-text">Shobhabazar Rajbari is the palace of the Shobhabazar royal family located in the Indian city of Kolkata.</p>
+                                          <a href="https://goo.gl/maps/wAsaLcEWcSdcK2UP6" class="btn btn-dark">Go </a>
+                                        </div>
+                                      </div>
+                                            </div>
+    
+        <div class=" col-md-3 col-6  mt-2 ">
+    
+<div class="card" style="width:100%; height: 520px; background-image: url(tourbg.jpg); background-size: cover;
+background-repeat: no-repeat; "><br>
+    <img class="card-img-top img-fluid" style="border-radius: 40%; height: 350px;" src="coffee.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Indian Coffee House</h5>
+      <p class="card-text">College Street Coffee House or Indian Coffee House is a cafe located opposite the Presidency University in College Street.</p>
+      <a href="https://g.page/Indiancoffeehouse1958?share" class="btn btn-dark">Go </a>
+    </div>
+  </div>
+        </div>
+    
+    
+    </div></div>
+
+    
+ 
+
+
+
+    <!-- 2nd line -->
+    
+<div class=" container-fluid mt-3  " >
+    <div class="row ">
+        <div class=" col-md-3 col-6 mt-2 ">
+    
+            <div class="card" style="width:100%; height: 520px; background-image: url(tourbg.jpg); background-size: cover;
+            background-repeat: no-repeat; "><br>
+                <img class="card-img-top img-fluid" style="border-radius: 40%; height: 350px;" src="kumortuli.jpg.crdownload" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Kumartuli</h5>
+                  <p class="card-text">Kumortuli is a traditional potters' quarter in northern Kolkata, West Bengal, India. The city is renowned for its sculpting prowess..</p>
+                  <a href="https://goo.gl/maps/W71Z7KWwbj7rbSQR8" class="btn btn-dark">Go </a>
+                </div>
+              </div>
+                    </div>
+                    <div class=" col-md-3 col-6 mt-2 ">
+    
+                        <div class="card" style="width:100%; height: 520px; background-image: url(tourbg.jpg); background-size: cover;
+                        background-repeat: no-repeat; "><br>
+                            <img class="card-img-top img-fluid" style="border-radius: 40%; height: 350px;" src="marbel.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Marble Palace</h5>
+                              <p class="card-text">Marble Palace is a palatial nineteenth-century mansion in North Kolkata. It is located at 46, Muktaram Babu Street, Kolkata 700007.</p>
+                              <a href="https://goo.gl/maps/JaxxZa2BAzPwX5tz9" class="btn btn-dark">Go </a>
+                            </div>
+                          </div>
+                                </div>
+                                <div class=" col-md-3 col-6 mt-2 ">
+    
+                                    <div class="card" style="width:100%; height: 520px; background-image: url(tourbg.jpg); background-size: cover;
+                                    background-repeat: no-repeat; "><br>
+                                        <img class="card-img-top img-fluid" style="border-radius: 40%; height: 350px;" src="bagbazar.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Mayer Ghat Baghbazar</h5>
+                                          <p class="card-text">Get off at Baghbazar More, walk towards the railway line and you'll see a beautiful, tranquil ghat right in the heart of the city..</p>
+                                          <a href="https://goo.gl/maps/t4GcvazesrY4bMpu7" class="btn btn-dark">Go </a>
+                                        </div>
+                                      </div>
+                                            </div>
+                            
+    
+        <div class=" col-md-3 col-6 mt-2 ">
+    
+<div class="card" style="width:100%; height: 520px; background-image: url(tourbg.jpg); background-size: cover;
+background-repeat: no-repeat; "><br>
+    <img class="card-img-top img-fluid" style="border-radius: 40%; height: 350px;" src="jorasako.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Jorasanko Thakurbari</h5>
+      <p class="card-text">Jorasanko Thakur Bari in Jorasanko, North Kolkata, West Bengal, India, is the ancestral home of the Tagore family.</p>
+      <a href="https://goo.gl/maps/tsTWQcPhMTpGAkX58" class="btn btn-dark">Go </a>
+    </div>
+  </div>
+        </div>
+    
+    
+    </div></div>
+
+
+
+
+
+     <!-- 3rd line -->
+
+
+
+    
+     <div class=" container-fluid mt-3  " >
+        <div class="row ">
+            <div class=" col-md-3 col-6 mt-2 ">
+        
+                <div class="card" style="width:100%; height: 520px; background-image: url(tourbg.jpg); background-size: cover;
+                background-repeat: no-repeat; "><br>
+                    <img class="card-img-top img-fluid" style="border-radius: 40%; height: 350px;" src="nicco.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Nicco Park</h5>
+                      <p class="card-text">Nicco Park is an amusement park located in Jheel Meel, Sector - IV of Salt Lake City, Kolkata.</p>
+                      <a href="https://goo.gl/maps/Y1AkVxkmbmNvCSY88" class="btn btn-dark">Go </a>
+                    </div>
+                  </div>
+                        </div>
+                        <div class=" col-md-3 col-6 mt-2 ">
+        
+                            <div class="card" style="width:100%; height: 520px; background-image: url(tourbg.jpg); background-size: cover;
+                            background-repeat: no-repeat; "><br>
+                                <img class="card-img-top img-fluid" style="border-radius: 40%; height: 350px;" src="eco.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Eco Park</h5>
+                                  <p class="card-text">A large recreation area for activities such as boating & cycling, plus a playground, lake & gardens.</p>
+                                  <a href="https://goo.gl/maps/QKghkoWsHGW6xVUf6" class="btn btn-dark">Go </a>
+                                </div>
+                              </div>
+                                    </div>
+                                    <div class=" col-md-3 col-6 mt-2 ">
+        
+                                        <div class="card" style="width:100%; height: 520px; background-image: url(tourbg.jpg); background-size: cover;
+                                        background-repeat: no-repeat; "><br>
+                                            <img class="card-img-top img-fluid" style="border-radius: 40%; height: 350px;" src="eden.jpg" alt="Card image cap">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Eden Gardens</h5>
+                                              <p class="card-text">Eden Gardens is a cricket ground in Kolkata, India. Established in 1864.</p>
+                                              <a href="https://goo.gl/maps/wikVEnrEEhACKVDs9" class="btn btn-dark">Go</a>
+                                            </div>
+                                          </div>
+                                                </div>
+                                
+        
+            <div class=" col-md-3 col-6 mt-2 ">
+        
+    <div class="card" style="width:100%; height: 520px; background-image: url(tourbg.jpg); background-size: cover;
+    background-repeat: no-repeat; "><br>
+        <img class="card-img-top img-fluid" style="border-radius: 40%; height: 350px;" src="dokhinasor.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Dakshineswar Kali Temple</h5>
+          <p class="card-text">Dakshineswar Kali Temple is a Hindu navaratna temple located at Dakshineswar.</p>
+          <a href="https://goo.gl/maps/KwMESSWb1BVjSdnv6" class="btn btn-dark">Go</a>
+        </div>
+      </div>
+            </div>
+        
+        
+        </div></div>
+    
+    
+    
+
+
+
+
+
+  
+      </body>
+      </html>
+      
+
+
+
+
+
+
+
+
+
+
